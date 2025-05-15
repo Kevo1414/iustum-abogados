@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: #f8f8f8;
+    color: #1a1a1a;
+  }
+  
+  .hero {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+  }
+  
+  .hero .logo {
+    width: 160px;
+    margin-bottom: 15px;
+    animation: pulse 2.5s infinite;
+  }
+  
+  .hero h1 {
+    font-size: 2.8em;
+    margin-bottom: 5px;
+    color: #b30000;
+  }
+  
+  .hero h2 {
+    font-size: 1.6em;
+    margin: 0;
+  }
+  
+  .hero .lema {
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 1.1em;
+    color: #eee;
+  }
+  
+  section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+    animation: fadeInUp 1s ease forwards;
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  
+  section:nth-of-type(2) { animation-delay: 0.2s; }
+  section:nth-of-type(3) { animation-delay: 0.4s; }
+  section:nth-of-type(4) { animation-delay: 0.6s; }
+  section:nth-of-type(5) { animation-delay: 0.8s; }
+  section:nth-of-type(6) { animation-delay: 1s; }
+  
+  .perfil {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .foto-perfil {
+    width: 180px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  }
+  
+  .bio {
+    flex: 1;
+  }
+  
+  h2 {
+    color: #b30000;
+    border-bottom: 2px solid #b30000;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  blockquote {
+    background: #eee;
+    border-left: 5px solid #b30000;
+    padding: 10px 20px;
+    margin: 15px 0;
+    font-style: italic;
+  }
+  
+  .contacto p {
+    margin: 10px 0;
+  }
+  
+  /* Redes sociales con íconos uniformes y circulares */
+  .redes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .redes a {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .redes a:hover {
+    transform: scale(1.15);
+  }
+  
+  .redes img {
+    width: 65%;
+    height: 65%;
+    object-fit: contain;
+  }
+  
+  footer {
+    text-align: center;
+    background: #1a1a1a;
+    color: #ccc;
+    padding: 20px;
+    font-size: 0.9em;
+  }
+  
+  /* Animaciones */
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+  
+  
+  
+  
